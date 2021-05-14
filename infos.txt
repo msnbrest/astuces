@@ -1,0 +1,25 @@
+Voici une petite liste de choses qui me semblent bien pratique.
+
+Pour commencer, une image "clavier key + touches.png" me permettant de reconnaitre le code d'une touche.
+
+Exemple, en javascript :
+un element HTML va pouvoir recevoir des infos d'une touche clavier relachée.
+window, body, textarea... ou simplement input.
+on y ajoute une fonction, du genre => onkeyup="kd(event)"
+puis on créé une fonction "kd" qui reçoit les infos qu'on appelera "zinfos".
+
+ce qui donne au final pour la partie HTML :
+<input onkeyup="kd(event)">
+
+et pour la partie javascript :
+let kd = ( zinfos ) => {
+
+	alert(zinfos.keyCode);
+
+};
+
+Ce script tout moche vous permet de voir une alert (cadre qui pop à l'écran) contenant le code de la touche enfoncée.
+
+En général, la touche Entrée (13) m'est très utile pour savoir quand il faut envoyer une recherche depuis les infos d'une input par exemple.
+
+Si vous avez des questions, essayez de me les envoyer j'aimerai y répondre pour améliorer ce tuto :)
