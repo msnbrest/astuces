@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html><head>
+<style>
+body{background:#222;color:#aaa}
+textarea{background:#222;border:1px solid #444;color:#ddd;width:100%;height:120px}
+#i2{display:table;max-width:100%;background:#444}
+</style>
+<script>
+// 2015 06 20
+let re=()=>{
+	document.getElementById('i2').innerHTML = document.getElementById('i1').value
+}
+</script>
+</head><body onload="re()">
+
+<header>
+<textarea id="i1" onkeyup="re()">
+<div style="color:#f80;padding:1rem">Salut</div>
+</textarea>
+</header>
+
+<main id="i2"></main>
+
+</body></html>
