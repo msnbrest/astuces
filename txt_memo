@@ -2,3 +2,12 @@
 lisible par balise <audio> : mp3, ogg, m4a, flac, mpeg, wav, m4p, aac
 illisible : wma, asf
 à tester : 3gp
+
+// get a project
+git clone https://github.com/_pseudo_/_projectname_
+
+// get news
+git pull
+
+// send
+git push
