@@ -11,3 +11,18 @@ git pull
 
 // send
 git push
+
+// manag github repo
+need token
+
+(after cloning repo)
+$ cd _folder_
+$ git add .
+$ git commit -m "_message_"
+$ git push
+maybe error because in www folder, so : $ git config --global --add safe.directory _folder_abs_path_
+after error : $ git push
+
+// create token
+create token by password, create name, check permissions (just add "commit"), done.
+infos : https://docs.github.com/fr/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
